@@ -1,0 +1,18 @@
+#div{
+    text-align: center;
+    position:relative;
+}
+#div::after{
+ 
+        position: absolute;
+        content: "";
+        width: 150px;
+        height: 10px;
+        background-color: orange;
+        border-radius: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 3px;
+    
+
+}
